@@ -1,4 +1,4 @@
-const moment = self.moment;
+import moment from './lib';
 
 function compare(a, b) {
   if (moment.isMoment(a) && moment.isMoment(b)) {
